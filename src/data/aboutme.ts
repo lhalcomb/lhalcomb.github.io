@@ -18,22 +18,19 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Layden Halcomb",
+  title: "Ph.D. Student",
+  institution: "University of Iowa",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "I am a first year PhD Student in Computer Science. My research spans artificial intelligence, machine learning, and reinforcement learning. I thrive on solving complex problems, relish the challenge of unraveling intricate puzzles, and consistently seek opportunities to push my skills further. ",
+  email: "lhalcomb@uiowa.edu",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
+    "/laydenhalcomb.jpg",
+  //googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
+  githubUsername: "lhalcomb",
+  linkedinUsername: "lhalcomb",
+  //blogUrl: "https://",
+  //cvUrl: "https://",
+  secretDescription: "I enjoy coffee, running, video games, and reading comic books. Check out my github projects! ",
 };
